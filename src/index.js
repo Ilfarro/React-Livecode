@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider, connect } from 'unistore/react';
+import { Provider } from 'unistore/react';
 import {store} from './store';
 import './styles/index.css';
 
