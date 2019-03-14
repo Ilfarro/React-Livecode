@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+@media screen and (max-width: 575px) {
+    #logo {
+        display: table;
+        margin: 0 auto;
+    }
+    .aboutme {
+        display: table;
+        margin: 0 auto;
+    }
+    .information {
+        display: table;
+        margin: 0 auto;
+    }
+    .nav-item{
+        display: table;
+        margin: 0 auto;
+    }
+    .footer_logo {
+        display: table;
+        margin: 0 auto;
+    }
+    .footer_sosmed .list-style {
+        display: table;
+        margin: 0 auto;
+    }
+}
+
+div.container header {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.nav-item {
+    font-family: 'Muli', serif; 
+    font-weight: 700;
+    color: #19345E;
+    font-size: 14px;
+}
+
+section {
+    text-align: center;
+    background-image: url(../images/img/img-header.png);
+    color: white;
+    margin-top: 13px;
+    background-size: 100%;
+    word-break: 10px;
+}
+
+#photo {
+    border-style: hidden;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+#nama {
+    font-size: 45px;
+    font-family: 'Muli', serif;
+    font-weight: 700;
+}
+
+#kota {
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Muli', serif;
+}
+
+#work {
+    font-size: 20px;
+    font-family: 'Muli', serif;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+#button_CV {
+    background-color:#F47522;
+    border-style: hidden;
+    border-color: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Muli', serif;
+    font-weight: 700;
+    margin-bottom: 70px;
+    margin-top: 10px;
+    width: 192px;
+    transition-duration: 0.4s;
+}
+
+#button_CV:hover {
+    background-color: grey;
+}
+
+p {
+    font-family: 'Muli', serif;
+    text-align: justify;
+    color: #1C1C1C;
+}
+
+article {
+    margin: 70px 100px;
+    box-sizing: border-box;
+    border: 1022px 358px;
+    border-style: solid;
+    border-color: #DEDEDE;
+    border-width: 1px;
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px grey;
+    color: #19345E;
+}
+
+h3 {
+    font-weight: 600;
+    font-family: 'Muli', serif;
+    margin: 30px 0;
+}
+
+table .information {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+.information td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #CBCBCB;
+    color: #414141;
+    font-family: 'Muli', serif;
+    font-size: 14px;
+}
+  
+article table tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+footer {
+    background-color: #19345E;
+}
+
+#follow {
+    text-align: left;
+    color: #DEDEDE;
+    margin-left: 100px;
+}
+
+footer #copyright {
+    color: #DEDEDE;
+    padding-bottom: 30px;
+}
+
+footer img{
+    margin: 15px 0;
+}
+
+footer span{
+    margin-bottom: 15px;
+}
+
+.aboutme {
+    padding-right: 50px;
+}
+
+.information {
+    padding-left: 50px;
+}
+
+#copyright {
+    font-family: 'Muli', serif;
+    font-size: 12px;
+
+}
+
+footer h3 {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Muli', serif;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    color: white;
+    padding: 0 0 0 350px;
+}
+
+footer .footer_logo img {
+    width: 110px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+footer .footer_logo span {
+    color: white;
+    display: block;
+    font-size: 12px;
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+}
+
+.list-style {
+    padding-left: 0;
+    list-style: none;
+}
+
+footer ul li {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    color: white;
+    word-spacing: 5px;
+    padding: 0 0 0 350px;
+}
+
+footer ul li img {
+    margin-right: 10px;
+}
